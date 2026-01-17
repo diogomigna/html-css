@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: Valentine;
+            src: url('fonts/Be My Valentine.otf') format('opentype'), url ('fonts/Be My valentine.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            
+            */
+
+
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'Valentine', Times, serif;
+            font-size: 3em;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nisi at voluptas aperiam ut possimus modi debitis sequi voluptatem, doloribus, a eius quo sunt tenetur, temporibus ipsum nulla corrupti maiores.</p>
+    
+</body>
+</html>
